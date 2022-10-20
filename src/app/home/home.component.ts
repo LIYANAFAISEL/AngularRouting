@@ -13,12 +13,11 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  /*gotoProduct() {
+  gotoProduct() {
     console.log('Try to update DB');
     setTimeout(() => {
       console.log('DB is updated');
-      this.router.navigate(["./product-detail/products"]);
+      this.router.navigate(["./product-detail"]);
     }, 2000);
   }
-*/
 }

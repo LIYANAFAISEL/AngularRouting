@@ -7,6 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { MainComponent } from './main/main.component';
+import { ProductsModule } from './products/products.module';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { MainComponent } from './main/main.component';
   ],
   imports: [
     BrowserModule,
+    ProductsModule,
     AppRoutingModule
   ],
   providers: [],
